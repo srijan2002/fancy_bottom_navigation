@@ -1,8 +1,8 @@
 library fancy_bottom_navigation;
 
-import 'package:fancy_bottom_navigation/internal/tab_item.dart';
-import 'package:fancy_bottom_navigation/paint/half_clipper.dart';
-import 'package:fancy_bottom_navigation/paint/half_painter.dart';
+import 'package:fancy_bottom_navigation_2/internal/tab_item.dart';
+import 'package:fancy_bottom_navigation_2/paint/half_clipper.dart';
+import 'package:fancy_bottom_navigation_2/paint/half_painter.dart';
 import 'package:flutter/material.dart';
 
 const double CIRCLE_SIZE = 60;

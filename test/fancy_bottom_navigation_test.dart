@@ -1,15 +1,13 @@
-import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
+import 'package:fancy_bottom_navigation_2/fancy_bottom_navigation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   Widget makeTestableWidget({required Widget child}) {
     return MaterialApp(
-        theme: ThemeData(primaryColor: Colors.pink,
-        brightness: Brightness.light),
-        home: Scaffold(
-            body: Center(),
-            bottomNavigationBar: child));
+        theme:
+            ThemeData(primaryColor: Colors.pink, brightness: Brightness.light),
+        home: Scaffold(body: Center(), bottomNavigationBar: child));
   }
 
   testWidgets('Fancy Nav has correct tabs', (WidgetTester tester) async {
@@ -37,7 +35,6 @@ void main() {
 
     final randomFinder = find.text("Hello");
     expect(randomFinder, findsNothing);
-
   });
 
   testWidgets('Clicking icon moves the circle', (WidgetTester tester) async {
@@ -68,7 +65,5 @@ void main() {
 
     expect(searchIconFinder, findsNWidgets(2));
     expect(homeIconFinder, findsOneWidget);
-
   });
-
 }

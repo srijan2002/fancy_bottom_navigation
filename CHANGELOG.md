@@ -1,3 +1,6 @@
+# [0.3.4] - Null safety
+* Contributed by mockturtl, thanks. Stack constructor for flutter > 2.10
+
 # [0.3.3] - Null safety
 * Contributed by rkishan516, thanks. Updates the lib for null safety
 
