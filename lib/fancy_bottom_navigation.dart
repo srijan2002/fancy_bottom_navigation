@@ -5,12 +5,12 @@ import 'package:fancy_bottom_navigation_2/paint/half_clipper.dart';
 import 'package:fancy_bottom_navigation_2/paint/half_painter.dart';
 import 'package:flutter/material.dart';
 
-const double CIRCLE_SIZE = 48;
-const double ARC_HEIGHT = 56;
-const double ARC_WIDTH = 72;
-const double CIRCLE_OUTLINE = 8;
-const double SHADOW_ALLOWANCE = 16;
-const double BAR_HEIGHT = 48;
+const double CIRCLE_SIZE = 60*1.25;
+const double ARC_HEIGHT = 70*1.25;
+const double ARC_WIDTH = 90*1.25;
+const double CIRCLE_OUTLINE = 10*1.25;
+const double SHADOW_ALLOWANCE = 20*1.25;
+const double BAR_HEIGHT = 60;
 
 class FancyBottomNavigation extends StatefulWidget {
   FancyBottomNavigation(
