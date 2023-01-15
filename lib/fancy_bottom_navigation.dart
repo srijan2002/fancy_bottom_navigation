@@ -101,7 +101,7 @@ class FancyBottomNavigationState extends State<FancyBottomNavigation> with Ticke
         Container(
           height: BAR_HEIGHT,
           decoration: BoxDecoration(color: barBackgroundColor, boxShadow: [BoxShadow(color: shadowColor, offset: Offset(0, -1), blurRadius: 8)],
-          borderRadius: BorderRadius.only(topLeft: Radius.circular(14.sp),topRight: Radius.circular(14.sp)),
+          borderRadius: BorderRadius.only(topLeft: Radius.circular(18),topRight: Radius.circular(18)),
           ),
           child: Row(
             mainAxisSize: MainAxisSize.max,
