@@ -6,7 +6,7 @@ import 'package:fancy_bottom_navigation_2/paint/half_painter.dart';
 import 'package:flutter/material.dart';
 
 const double CIRCLE_SIZE = 50;
-const double ARC_HEIGHT = 50;
+const double ARC_HEIGHT = 58;
 const double ARC_WIDTH = 70;
 const double CIRCLE_OUTLINE = 8;
 const double SHADOW_ALLOWANCE = 15;
