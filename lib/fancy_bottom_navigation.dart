@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 
 const double CIRCLE_SIZE = 50;
 const double ARC_HEIGHT = 80;
-const double ARC_WIDTH = 100;
+const double ARC_WIDTH = 160;
 const double CIRCLE_OUTLINE = 10;
 const double SHADOW_ALLOWANCE = 20;
 const double BAR_HEIGHT = 60;
