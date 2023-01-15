@@ -7,10 +7,10 @@ import 'package:flutter/material.dart';
 
 const double CIRCLE_SIZE = 50;
 const double ARC_HEIGHT = 60;
-const double ARC_WIDTH = 110;
-const double CIRCLE_OUTLINE = 20;
+const double ARC_WIDTH = 120;
+const double CIRCLE_OUTLINE = 30;
 const double SHADOW_ALLOWANCE = 40;
-const double BAR_HEIGHT = 75;
+const double BAR_HEIGHT = 60;
 
 class FancyBottomNavigation extends StatefulWidget {
   FancyBottomNavigation(
