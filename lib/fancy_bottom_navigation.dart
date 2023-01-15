@@ -25,7 +25,7 @@ class FancyBottomNavigation extends StatefulWidget {
       this.barBackgroundColor})
       : assert(onTabChangedListener != null),
         assert(tabs != null),
-        assert(tabs.length > 1 && tabs.length < 5);
+        assert(tabs.length > 1 && tabs.length < 6);
 
   final Function(int position) onTabChangedListener;
   final Color? circleColor;
@@ -100,7 +100,9 @@ class FancyBottomNavigationState extends State<FancyBottomNavigation> with Ticke
       children: <Widget>[
         Container(
           height: BAR_HEIGHT,
-          decoration: BoxDecoration(color: barBackgroundColor, boxShadow: [BoxShadow(color: shadowColor, offset: Offset(0, -1), blurRadius: 8)]),
+          decoration: BoxDecoration(color: barBackgroundColor, boxShadow: [BoxShadow(color: shadowColor, offset: Offset(0, -1), blurRadius: 8)],
+          borderRadius: BorderRadius.only(topLeft: Radius.circular(14.sp),topRight: Radius.circular(14.sp)),
+          ),
           child: Row(
             mainAxisSize: MainAxisSize.max,
             crossAxisAlignment: CrossAxisAlignment.center,
